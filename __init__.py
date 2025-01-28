@@ -14,7 +14,7 @@ bl_info = {
     "category": "System"
 }
 
-updater = Alx_Addon_Updater(__path__, bl_info, "Github", "Valerie-Bosco", "XNALara-io-Tools", "https://github.com/Valerie-Bosco/XNALara-io-Tools/releases/tag/main_branch_latest")
+updater = Alx_Addon_Updater(__path__, bl_info, "Github", "Valerie-Bosco", "XNALara-io-Tools", "https://github.com/Valerie-Bosco/blender-addon-updater-BL4x/releases/")
 
 
 def register():
