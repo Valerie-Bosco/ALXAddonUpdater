@@ -20,8 +20,8 @@ addon_updater = ALX_AddonUpdater.Alx_Addon_Updater(
     bl_info=bl_info,
     engine="Github",
     engine_user_name="Valerie-Bosco",
-    engine_repo_name="XNALara-io-Tools",
-    manual_download_website="https://github.com/Valerie-Bosco/XNALara-io-Tools/releases/tag/main_branch_latest"
+    engine_repo_name="ALX-AddonUpdater",
+    manual_download_website="https://github.com/Valerie-Bosco/ALX-AddonUpdater/releases/tag/main_branch_latest"
 )
 
 

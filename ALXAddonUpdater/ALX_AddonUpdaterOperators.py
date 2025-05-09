@@ -6,8 +6,8 @@ import bpy
 from .ALX_AddonUpdaterEngine import AddonUpdaterEngine
 from .ALX_AddonUpdaterUtils import get_addon_preferences, ui_refresh
 
-addon_name = re.sub(r"\\|\/|-|\.", "_", str.lower(__package__).split(".")[0])
 addon_updater: AddonUpdaterEngine = None
+addon_name = re.sub(r"\\|\/|-|\.", "_", str.lower(__package__).split(".")[0])
 
 
 class AddonUpdaterCheckNow(bpy.types.Operator):
