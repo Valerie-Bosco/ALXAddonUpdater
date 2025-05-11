@@ -532,7 +532,8 @@ class Alx_Addon_Updater():
                     bpy.utils.register_class(addon_class)
 
             except Exception as error:
-                print(error)
+                if (mute == False):
+                    print(error)
 
     def unregister_addon_updater(self):
 
